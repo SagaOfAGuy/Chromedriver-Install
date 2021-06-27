@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: chromedriver-installer
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # Chromedriver-Install
+        Python script that installs the proper Chromedriver in accordance to the current Chrome browser version
+        
+        ### Usage
+        ```bash 
+        python3 chromedriver.py /chromedriver/install/path
+        ```
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
