@@ -15,7 +15,12 @@ pip3 install .
 
 ### Example Usage
 ```bash
+# If you want to download Chromedriver in the /home/$USER/Documents directory
 ChromedriverInstall ~/Downloads
+
+# If you want to download Chromedriver in the /home/$USER/Downloads directory
 ChromedriverInstall ~/Documents
+
+# If you want to download Chromedriver in the current directory
 ChromedriverInstall .
 ```
