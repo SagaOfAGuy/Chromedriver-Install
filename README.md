@@ -3,5 +3,12 @@ Python script that installs the proper Chromedriver in accordance to the current
 
 ### Usage
 ```bash 
-python3 chromedriver.py /chromedriver/install/path
+# Navigate to root directory 
+cd ChromedriverInstall
+
+# Install dependecy packages
+pip3 install .
+
+# Download Chromedriver
+ChromedriverInstall ~/Downloads
 ```
