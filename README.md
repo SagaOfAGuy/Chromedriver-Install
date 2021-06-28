@@ -1,26 +1,31 @@
 # Chromedriver-Install
 Python script that installs the proper Chromedriver in accordance to the current Chrome browser version
 
-### Installation
-```bash 
-# Clone this github repository
-git clone https://github.com/SagaOfAGuy/Chromedriver-Install.git
+# Installation
 
-# Navigate to root directory 
+
+Navigate to root directory 
+```bash
 cd ChromedriverInstall
+```
 
-# Install dependecy packages in root directory using Pip3
+Install dependecy packages in root directory using Pip3
+```bash
 pip3 install .
 ```
 
-### Example Usage
+# Example Usage
+If you want to download Chromedriver in Documents directory
 ```bash
-# If you want to download Chromedriver in the /home/$USER/Documents directory
 ChromedriverInstall ~/Downloads
+```
 
-# If you want to download Chromedriver in the /home/$USER/Downloads directory
+If you want to download Chromedriver in Downloads directory
+```bash
 ChromedriverInstall ~/Documents
+```
 
-# If you want to download Chromedriver in the current directory
+If you want to download Chromedriver in the current directory
+```bash
 ChromedriverInstall .
 ```
