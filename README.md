@@ -1,5 +1,5 @@
 # Chromedriver-Install
-Python script that installs the proper Chromedriver in accordance to the current Chrome browser version
+Python script that installs the proper Chromedriver in accordance to the current Chrome browser version present on the host operating system
 
 # Installation
 
